@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+}
+
+#colleft {
+    width: 450px;
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns:  repeat(3, 50px);
+    grid-template-rows: repeat(3, 50px);
+    margin-right: 0px;
+    margin-left: 0px;
+    border: 1px solid black;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    font-size: 20px;
+}
